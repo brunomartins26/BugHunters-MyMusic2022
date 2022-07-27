@@ -21,7 +21,7 @@ public class Musica  {
     public Musica(String id, String nome, String artista) {
         this.id = id;
         this.nome = nome;
-        Artista = artista;
+        String Artista = artista;
     }
 
     public String getId() {
