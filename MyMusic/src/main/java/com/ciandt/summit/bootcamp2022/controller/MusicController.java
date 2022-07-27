@@ -1,16 +1,34 @@
 package com.ciandt.summit.bootcamp2022.controller;
 
+import com.ciandt.summit.bootcamp2022.entity.Musica;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/music")
 public class MusicController {
 
-    @GetMapping
-    public ResponseEntity<String> get() {
-        return ResponseEntity.ok("67f5976c-eb1e-404e-8220-2c2a8a23be47");
+    @Autowired
+    MusicRepository musicRepository;
+
+    @GetMapping("/{query}")
+    public ResponseEntity<Musica> get(@RequestParam String query) {
+        //add some logic here
+        return ResponseEntity.ok(musicRepository.get(query));
     }
+
+//    @PutMapping("/playlists/{playlistId}/musicas")
+//    public ResponseEntity<String> addAll(@RequestParam String playlistId) {
+//
+//        //add some logic here
+//        return ResponseEntity.ok(musicRepository.get(query));
+//    }
+//
+//    @DeleteMapping("/api/playlists/{playlistId}/musicas/{musicaId}")
+//    public ResponseEntity<String> addAll( @RequestParam String playlistId,
+//                                          @RequestParam String musicaId) {
+//        //add some logic here
+//        return ResponseEntity.ok(musicRepository.get(query));
+//    }
 }
