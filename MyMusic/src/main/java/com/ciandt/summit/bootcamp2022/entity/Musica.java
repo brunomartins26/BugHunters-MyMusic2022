@@ -9,7 +9,7 @@ public class Musica  {
     private String id;
     @Column
     private String nome;
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "ArtistaId")
     private Artista artista;
 
