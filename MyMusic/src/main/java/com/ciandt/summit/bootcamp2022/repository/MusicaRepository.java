@@ -13,12 +13,10 @@ import java.util.List;
 
 @Repository
 public interface MusicaRepository extends JpaRepository<Musica, String> {
-    @Query("SELECT m FROM Musica m JOIN m.artista a WHERE a.nome like %:nome%")
-    public List<Musica> BuscarMusica(@Param("nome") String nome);
+    @Query("SELECT m FROM Musica m JOIN Artista a on a.id = m.artista WHERE a.nome like '%'|| :filtro ||'%' or m.nome like '%'|| :filtro ||'%' ORDER by a.nome, m.nome asc")
+    List<Musica> BuscarMusica(@Param("filtro") String filtro);
     //todo
 
-    //@Query("SELECT m FROM Musica m")
-   // public List<Musica> BuscarMusica ();
 }
 
 

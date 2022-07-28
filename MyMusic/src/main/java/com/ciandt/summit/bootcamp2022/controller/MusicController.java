@@ -10,7 +10,7 @@ import javax.websocket.server.PathParam;
 import java.sql.Blob;
 
 @RestController
-@RequestMapping("/api/v1/music")
+@RequestMapping("/api/musicas")
 public class MusicController {
 
     @Autowired
