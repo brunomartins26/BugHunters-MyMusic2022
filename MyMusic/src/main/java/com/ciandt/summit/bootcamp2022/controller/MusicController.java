@@ -1,6 +1,7 @@
 package com.ciandt.summit.bootcamp2022.controller;
 
 import com.ciandt.summit.bootcamp2022.entity.Musica;
+import com.ciandt.summit.bootcamp2022.repository.MusicaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,14 +11,14 @@ import org.springframework.web.bind.annotation.*;
 public class MusicController {
 
     @Autowired
-    MusicRepository musicRepository;
+    MusicaRepository musicaRepository;
 
-    @GetMapping("/{query}")
-    public ResponseEntity<Musica> get(@RequestParam String query) {
+    @GetMapping()
+    public ResponseEntity<?> get(@RequestParam String nomeArtista) {
         //add some logic here
-        return ResponseEntity.ok(musicRepository.get(query));
+        return ResponseEntity.ok(musicaRepository.findByArtistasNomeContainingIgnoreCaseOrderByArtistasNomeAsc(nomeArtista));
     }
-
+}
 //    @PutMapping("/playlists/{playlistId}/musicas")
 //    public ResponseEntity<String> addAll(@RequestParam String playlistId) {
 //
@@ -31,4 +32,4 @@ public class MusicController {
 //        //add some logic here
 //        return ResponseEntity.ok(musicRepository.get(query));
 //    }
-}
+
