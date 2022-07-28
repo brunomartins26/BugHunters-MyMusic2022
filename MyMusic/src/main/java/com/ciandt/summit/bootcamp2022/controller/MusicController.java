@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.websocket.server.PathParam;
+import java.sql.Blob;
+
 @RestController
 @RequestMapping("/api/v1/music")
 public class MusicController {
@@ -14,9 +17,9 @@ public class MusicController {
     MusicaRepository musicaRepository;
 
     @GetMapping()
-    public ResponseEntity<?> get(@RequestParam String nomeArtista) {
+    public ResponseEntity<?> get(@RequestParam("nome") String IdArtista) {
         //add some logic here
-        return ResponseEntity.ok(musicaRepository.findByArtistasNomeContainingIgnoreCaseOrderByArtistasNomeAsc(nomeArtista));
+        return ResponseEntity.ok(musicaRepository.BuscarMusica(IdArtista));
     }
 }
 //    @PutMapping("/playlists/{playlistId}/musicas")
