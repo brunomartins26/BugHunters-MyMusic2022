@@ -1,26 +1,36 @@
 package com.ciandt.summit.bootcamp2022.controller;
 
-import com.ciandt.summit.bootcamp2022.entity.Musica;
-import com.ciandt.summit.bootcamp2022.repository.MusicaRepository;
+import com.ciandt.summit.bootcamp2022.service.MusicaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.websocket.server.PathParam;
-import java.sql.Blob;
-
 @RestController
-@RequestMapping("/api/musicas")
-public class MusicController {
+@RequestMapping("/api/musicas")    //todo verificar se API musicas ou no contrato ta pedindo outro endpoint api/v1/music
+public class MusicController {     //todo refatorar codigo para ingles
+                                   //todo verificar o uso do lombok
+    //todo add Log de erro para o client visualizar
 
     @Autowired
-    MusicaRepository musicaRepository;
+    MusicaService musicaService; //todo refatorar codigo para ingles
 
-    @GetMapping()
-    public ResponseEntity<?> get(@RequestParam("nome") String IdArtista) {
-        //add some logic here
-        return ResponseEntity.ok(musicaRepository.BuscarMusica(IdArtista));
+    @GetMapping() //todo verificar o endpoint"BUSCAR"
+    public ResponseEntity<?> get(@RequestParam("nome") String filtro) { //todo verificar o operador ternario de ? para String
+        try {
+            if (filtro.isEmpty()){
+                return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            }
+            if (filtro.length() == 1 || filtro.length() < 3) {
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            }
+        } catch (Exception e){
+            throw new RuntimeException("Erro ao filtrar musica");
+        }
+        return ResponseEntity.ok(musicaService.BuscarMusica(filtro));
     }
+
+
 }
 //    @PutMapping("/playlists/{playlistId}/musicas")
 //    public ResponseEntity<String> addAll(@RequestParam String playlistId) {
