@@ -1,5 +1,4 @@
 package com.ciandt.summit.bootcamp2022.entity;
-
 import javax.persistence.*;
 
 @Entity
@@ -10,7 +9,7 @@ public class Musica  {
     private String id;
     @Column
     private String nome;
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "ArtistaId")
     private Artista artista;
 
