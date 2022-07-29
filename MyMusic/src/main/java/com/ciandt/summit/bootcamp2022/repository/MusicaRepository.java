@@ -11,4 +11,4 @@ import java.util.List;
 public interface MusicaRepository extends JpaRepository<Musica, String> {
     List<Musica> findByNomeContainingIgnoreCase(String nome);
     List<Musica> findByArtistas(Artista artista);
-    }
+}

@@ -18,10 +18,10 @@ public class Musica  {
 
     }
 
-    public Musica(String id, String nome, String artista) {
+    public Musica(String id, String nome, Artista artista) {
         this.id = id;
         this.nome = nome;
-        String Artista = artista;
+        this.artista = artista;
     }
 
     public String getId() {
