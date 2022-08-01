@@ -2,6 +2,7 @@ package com.ciandt.summit.bootcamp2022.controller;
 
 import com.ciandt.summit.bootcamp2022.entity.Musica;
 import com.ciandt.summit.bootcamp2022.repository.MusicaRepository;
+import com.ciandt.summit.bootcamp2022.service.MusicaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,18 +20,12 @@ import java.sql.Blob;
 public class MusicController {
 
     @Autowired
-    MusicaRepository musicaRepository;
+    MusicaService musicaService;
 
-<<<<<<< HEAD
-    @GetMapping("/{query}")
-    public ResponseEntity<List<Musica>> get(@RequestParam String query) {
-        return ResponseEntity.ok(musicaRepository.findAll());
-=======
     @GetMapping()
-    public ResponseEntity<?> get(@RequestParam("nome") String IdArtista) {
+    public ResponseEntity<List<Musica>> get(@RequestParam("nome") String IdArtista) {
         //add some logic here
-        return ResponseEntity.ok(musicaRepository.BuscarMusica(IdArtista));
->>>>>>> 55f1a915c065d55236a9e86350fddfd924352d15
+        return ResponseEntity.ok(musicaService.BuscarMusica(IdArtista));
     }
 }
 //    @PutMapping("/playlists/{playlistId}/musicas")
