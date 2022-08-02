@@ -5,16 +5,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.logging.Logger;
+
+import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
+
 @RestController
 @RequestMapping("/api/v1/music")
 public class MusicController {
-    //todo add Log de erro para o client visualizar
 
     @Autowired
     MusicService musicService;
 
     @GetMapping("/musicas")
     public ResponseEntity<?> get(@RequestParam("nome") String nomeArtista) {
+        LOGGER.info("Musicas encontradas com sucesso");
         return musicService.BuscarMusica(nomeArtista);
     }
 }
