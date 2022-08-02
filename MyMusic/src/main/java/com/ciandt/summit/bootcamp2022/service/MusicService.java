@@ -25,6 +25,7 @@ public class MusicService {
             LOGGER.info("Nome de artista deve conter ao menos 2 caracteres");
             return ResponseEntity.badRequest().body("A busca deve conter ao menos 2 caracteres");
         } else
+            LOGGER.info("Musicas encontradas com sucesso");
             return ResponseEntity.ok(musicRepository.BuscarMusica(nomeArtista));
     }
 }
