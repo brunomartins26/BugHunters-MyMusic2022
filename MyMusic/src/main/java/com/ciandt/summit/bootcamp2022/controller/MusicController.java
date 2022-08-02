@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/musicas")    //todo verificar se API musicas ou no contrato ta pedindo outro endpoint api/v1/music
+@RequestMapping("/api/v1/music")
 public class MusicController {     //todo refatorar codigo para ingles
                                    //todo verificar o uso do lombok
     //todo add Log de erro para o client visualizar
@@ -15,7 +15,7 @@ public class MusicController {     //todo refatorar codigo para ingles
     @Autowired
     MusicaService musicaService; //todo refatorar codigo para ingles
 
-    @GetMapping() //todo verificar o endpoint"BUSCAR"
+    @GetMapping("/musicas") //todo verificar o endpoint"BUSCAR"
     public ResponseEntity<?> get(@RequestParam("nome") String nomeArtista) {
         return musicaService.BuscarMusica(nomeArtista);
     }
