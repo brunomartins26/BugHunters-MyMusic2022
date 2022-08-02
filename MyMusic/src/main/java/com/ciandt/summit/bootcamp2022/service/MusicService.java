@@ -7,8 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MusicService { //todo trazer a regra de negocio dentro da service / criar metodo para encontrar artista e musica
-
+public class MusicService {
     @Autowired
     private MusicRepository musicRepository;
     @Autowired

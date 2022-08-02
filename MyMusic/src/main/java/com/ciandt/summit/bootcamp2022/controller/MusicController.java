@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/v1/music")
 public class MusicController {
-                                   //todo verificar o uso do lombok
     //todo add Log de erro para o client visualizar
 
     @Autowired
