@@ -30,7 +30,6 @@ public class MusicController {     //todo refatorar codigo para ingles
         return ResponseEntity.ok(musicaService.BuscarMusica(filtro));
     }
 
-
 }
 //    @PutMapping("/playlists/{playlistId}/musicas")
 //    public ResponseEntity<String> addAll(@RequestParam String playlistId) {

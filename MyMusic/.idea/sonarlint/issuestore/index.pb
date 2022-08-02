@@ -1,0 +1,19 @@
+
+q
+Asrc/main/java/com/ciandt/summit/bootcamp2022/config/DbConfig.java,1/2/129bdf6238863b042b1201d40bdcb4026dd595a2
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+s
+Csrc/main/java/com/ciandt/summit/bootcamp2022/model/ArtistasDTO.java,1/1/11caff3210383a78b04e4ca93d102fcd285353df
+q
+Asrc/main/java/com/ciandt/summit/bootcamp2022/model/MusicaDTO.java,d/f/dfb611b13b1f377d279223fc46faa6d9a88a6a59
+w
+Gsrc/main/java/com/ciandt/summit/bootcamp2022/service/MusicaService.java,0/9/09b5f83b01aa18a0050a20090e238c9251207d03
+}
+Msrc/main/java/com/ciandt/summit/bootcamp2022/repository/MusicaRepository.java,2/9/29e2f94f881ee5e646048b4d9c4d4e1bbce0a8a4
+C
+summit-bootcamp.iml,f/0/f01a60fd8cff107058925125e7a019b4003ad90b
+o
+?src/main/java/com/ciandt/summit/bootcamp2022/entity/Musica.java,8/0/80b0337ea1e8029743c2bbeafa26e903abc75582
+p
+@src/main/java/com/ciandt/summit/bootcamp2022/entity/Artista.java,3/7/3760930f62ee668b0d70563f0fd395b793cbff14
