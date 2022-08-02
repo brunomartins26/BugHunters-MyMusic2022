@@ -1,23 +1,22 @@
 package com.ciandt.summit.bootcamp2022.controller;
 
-import com.ciandt.summit.bootcamp2022.service.MusicaService;
+import com.ciandt.summit.bootcamp2022.service.MusicService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/music")
-public class MusicController {     //todo refatorar codigo para ingles
+public class MusicController {
                                    //todo verificar o uso do lombok
     //todo add Log de erro para o client visualizar
 
     @Autowired
-    MusicaService musicaService; //todo refatorar codigo para ingles
+    MusicService musicService;
 
-    @GetMapping("/musicas") //todo verificar o endpoint"BUSCAR"
+    @GetMapping("/musicas")
     public ResponseEntity<?> get(@RequestParam("nome") String nomeArtista) {
-        return musicaService.BuscarMusica(nomeArtista);
+        return musicService.BuscarMusica(nomeArtista);
     }
 }
 //    @PutMapping("/playlists/{playlistId}/musicas")
