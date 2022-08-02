@@ -18,7 +18,6 @@ public class MusicController {
 
     @GetMapping("/musicas")
     public ResponseEntity<?> get(@RequestParam("nome") String nomeArtista) {
-        LOGGER.info("Musicas encontradas com sucesso");
         return musicService.BuscarMusica(nomeArtista);
     }
 }
