@@ -19,10 +19,10 @@ public class MusicController {     //todo refatorar codigo para ingles
     public ResponseEntity<?> get(@RequestParam("nome") String filtro) { //todo verificar o operador ternario de ? para String
         try {
             if (filtro.isEmpty()){
-                return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+                return new ResponseEntity<>("No content found", HttpStatus.NO_CONTENT);
             }
-            if (filtro.length() == 1 || filtro.length() < 3) {
-                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            if (filtro.length() < 3) {
+                return new ResponseEntity<>("Invalid search", HttpStatus.BAD_REQUEST);
             }
         } catch (Exception e){
             throw new RuntimeException("Erro ao filtrar musica");
