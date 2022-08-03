@@ -1,12 +1,11 @@
 package com.ciandt.summit.bootcamp2022.service;
 
-import com.ciandt.summit.bootcamp2022.repository.ArtistRepository;
 import com.ciandt.summit.bootcamp2022.repository.MusicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.logging.Logger;
+
 
 import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
 
@@ -14,10 +13,8 @@ import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
 public class MusicService {
     @Autowired
     private MusicRepository musicRepository;
-    @Autowired
-    private ArtistRepository artistRepository;
 
-    public ResponseEntity<?> BuscarMusica(String nomeArtista) {
+    public ResponseEntity<?> BuscarMusica(String nomeArtista) { //todo refatorar para ingles os logs e menssagens
         if (nomeArtista.isEmpty()){
             LOGGER.info("Nome de artista invalido ou nao encontrado");
             return ResponseEntity.noContent().build();
