@@ -1,16 +1,0 @@
-
-S
-java:S3878'"8Remove this array creation and simply pass the elements.(ËË÷‰ûÿÿÿÿ
-V	java:S125/"<This block of commented-out lines of code should be removed.(¸¿¯—úÿÿÿÿ
-X	java:S1250"<This block of commented-out lines of code should be removed.(Ô³¬²8ŸçÉ±¤0
-f
-java:S1128
-"KRemove this unused import 'org.springframework.context.annotation.Profile'.(Øİ¥İøÿÿÿÿ
-h
-java:S1128"RRemove this unused import 'org.springframework.context.annotation.PropertySource'.(™¢˜é
-|
-java:S1128"aRemove this unused import 'org.springframework.data.jpa.repository.config.EnableJpaRepositories'.(²œ˜üÿÿÿÿ
-m
-java:S11922"RDefine a constant instead of duplicating this literal "hibernate.dialect" 3 times.(·ÿ©úÿÿÿÿ
-n
-java:S11925"SDefine a constant instead of duplicating this literal "hibernate.show_sql" 3 times.(öæ“—ùÿÿÿÿ

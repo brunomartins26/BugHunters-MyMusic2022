@@ -5,13 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.logging.Logger;
-
-import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
 
 @RestController
 @RequestMapping("/api/v1/music")
 public class MusicController {
+
 
     @Autowired
     MusicService musicService;
