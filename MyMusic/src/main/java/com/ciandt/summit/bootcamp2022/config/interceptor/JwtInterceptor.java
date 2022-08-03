@@ -1,8 +1,6 @@
 package com.ciandt.summit.bootcamp2022.config.interceptor;
 
 import com.ciandt.summit.bootcamp2022.exceptions.ErrorException;
-import com.ciandt.summit.bootcamp2022.service.MusicService;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -10,15 +8,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 
 @Component
-public class JWInterceptor implements HandlerInterceptor {
+public class JwtInterceptor implements HandlerInterceptor {
 
     @Autowired
     private JwtTokenProvider jwtTokenProvider;
-    private static final Logger LOGGER = (Logger) LoggerFactory.getLogger(MusicService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(JwtInterceptor.class);
     private static final String HEADER_AUTH = "Authorization";
 
     @Override

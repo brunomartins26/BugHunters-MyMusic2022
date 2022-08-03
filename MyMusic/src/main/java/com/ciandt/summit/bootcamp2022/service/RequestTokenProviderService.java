@@ -1,7 +1,6 @@
 package com.ciandt.summit.bootcamp2022.service;
-
-import com.ciandt.token.provider.controllers.dto.request.CreateAuthorizerRequest;
-import com.ciandt.token.provider.controllers.dto.request.CreateAuthorizerRequestData;
+import com.ciandt.summit.bootcamp2022.controller.dto.request.CreateAuthorizerRequest;
+import com.ciandt.summit.bootcamp2022.controller.dto.request.CreateAuthorizerRequestData;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,7 +11,7 @@ public class RequestTokenProviderService {
         RestTemplate restTemplate = new RestTemplate();
 
         try {
-            restTemplate.postForEntity("http://localhost:8080/api/v1/token/authorizer",
+            restTemplate.postForEntity("http://localhost:8090/api/v1/token/authorizer",
                     new CreateAuthorizerRequest(new CreateAuthorizerRequestData(token[0], token[1])), String.class);
             return true;
         }  catch (Exception e){

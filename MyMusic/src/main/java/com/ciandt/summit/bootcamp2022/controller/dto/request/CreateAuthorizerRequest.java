@@ -1,9 +1,12 @@
 package com.ciandt.summit.bootcamp2022.controller.dto.request;
 
-import com.ciandt.token.provider.controllers.dto.request.CreateAuthorizerRequestData;
+public class CreateAuthorizerRequest {
 
-public class CreateAutorizerRequest {
     private CreateAuthorizerRequestData data;
+
+    public CreateAuthorizerRequest(CreateAuthorizerRequestData data) {
+        this.data = data;
+    }
 
     public CreateAuthorizerRequestData getData() {
         return data;

@@ -1,0 +1,51 @@
+
+V	java:S125""<This block of commented-out lines of code should be removed.(áÖ–ùúÿÿÿÿ
+T
+java:S34007"9Remove this method and declare a constant for this value.(ò«§®ıÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(¹²ÏÒ
+O
+java:S3400;"9Remove this method and declare a constant for this value.(ô‡¼
+`
+java:S1874>"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÙšÌé
+P
+java:S1161>":Add the "@Override" annotation above this method signature(ÙšÌé
+`
+java:S1874B"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(„¦Ü°
+P
+java:S1161B":Add the "@Override" annotation above this method signature(„¦Ü°
+T
+java:S3400L"9Remove this method and declare a constant for this value.(É—±æÿÿÿÿÿ
+P
+java:S1161S":Add the "@Override" annotation above this method signature(æƒûà
+U
+java:S1161W":Add the "@Override" annotation above this method signature(àÜÍÉıÿÿÿÿ
+U
+java:S1161[":Add the "@Override" annotation above this method signature(šº©»ùÿÿÿÿ
+O
+java:S1161_":Add the "@Override" annotation above this method signature(³¿°
+U
+java:S1161c":Add the "@Override" annotation above this method signature(¶é“üûÿÿÿÿ
+P
+java:S1161g":Add the "@Override" annotation above this method signature(ÆñúÜ
+U
+java:S1161k":Add the "@Override" annotation above this method signature(Ö–Æõüÿÿÿÿ
+P
+java:S1161o":Add the "@Override" annotation above this method signature(Ö©ù
+P
+java:S1161s":Add the "@Override" annotation above this method signature(€ÛÉ¡
+P
+java:S1161w":Add the "@Override" annotation above this method signature(Üö¦›
+U
+java:S1161{":Add the "@Override" annotation above this method signature(ªàÖÜûÿÿÿÿ
+Q
+java:S1161€":Add the "@Override" annotation above this method signature(´©¾
+V
+java:S1161„":Add the "@Override" annotation above this method signature(Ä¿¨„üÿÿÿÿ
+V
+java:S1161ˆ":Add the "@Override" annotation above this method signature(ÕŸ™ˆúÿÿÿÿ
+J
+java:S1128	"4Remove this unused import 'org.hibernate.Hibernate'.(óñ‹è
+c
+java:S1192"HDefine a constant instead of duplicating this literal "integer" 4 times.(Ñ¯âşûÿÿÿÿ
+b
+java:S1192)"GDefine a constant instead of duplicating this literal "substr" 3 times.(Ø•Èéûÿÿÿÿ
