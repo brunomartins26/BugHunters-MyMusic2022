@@ -1,0 +1,11 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õŠÏ†
+<
+java:S1452"&Remove usage of generic wildcard type.(õŠÏ†
+Q
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚÞ8…˜Ý ¦0
+R
+java:S1128
+"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8…˜Ý ¦0
+
+java:S2681 "†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÙýÉ«

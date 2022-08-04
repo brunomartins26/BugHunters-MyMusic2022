@@ -1,6 +1,7 @@
 package com.ciandt.summit.bootcamp2022.service;
 
 import com.ciandt.summit.bootcamp2022.repository.MusicRepository;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -11,6 +12,8 @@ import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
 
 @Service
 public class MusicService {
+
+
     @Autowired
     private MusicRepository musicRepository;
 
