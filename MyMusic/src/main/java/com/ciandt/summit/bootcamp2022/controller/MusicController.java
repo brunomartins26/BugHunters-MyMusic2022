@@ -25,17 +25,34 @@ public class MusicController {
     public ResponseEntity<?> get(@RequestParam("nome") String nomeArtista) {
         return musicService.BuscarMusica(nomeArtista);
     }
-
-        @PostMapping(
-            value = "/playlists/musicas",
-            consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
-            produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
-    public ResponseEntity<?> addAll(@RequestParam("playlistId") String playlistId, @RequestBody List<Musica> payload) {
-//        return ResponseEntity.ok(musicService.addMusicsByPlaylistId(playlistId, payload)); //todo fazer a camada service para validar dados e add no banco
-        LOGGER.info("Playlist id: " + playlistId);
-        return ResponseEntity.ok().body(payload);
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    @PutMapping("/playlists/{playlistId}/musicas")
 //    public ResponseEntity<String> addAll(@RequestParam String playlistId) {
 //

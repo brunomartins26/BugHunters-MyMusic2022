@@ -4,12 +4,12 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "PlayList")
+@Table(name = "Playlists")
 public class PlayList {
     @Id
     private String id;
     @OneToMany
-    @JoinTable(name = "PlayListMusicas", joinColumns = @JoinColumn(name = "PlayListId"), inverseJoinColumns = @JoinColumn(name = "MusicaId"))
+    @JoinTable(name = "PlaylistMusicas", joinColumns = @JoinColumn(name = "PlaylistId"), inverseJoinColumns = @JoinColumn(name = "MusicaId"))
     private List<Musica> musica;
 
     public PlayList(List<Musica> musica) {
