@@ -4,9 +4,6 @@ public class CreateAuthorizerRequest {
 
     private CreateAuthorizerRequestData data;
 
-    public CreateAuthorizerRequest(CreateAuthorizerRequestData createAuthorizerRequestData) {
-    }
-
     public CreateAuthorizerRequestData getData() {
         return data;
     }

@@ -5,10 +5,6 @@ public class CreateAuthorizerRequestData {
     private String name;
 
     private String token;
-    public CreateAuthorizerRequestData(String name, String token) {
-        this.name = name;
-        this.token = token;
-    }
 
     public String getName() {
         return name;

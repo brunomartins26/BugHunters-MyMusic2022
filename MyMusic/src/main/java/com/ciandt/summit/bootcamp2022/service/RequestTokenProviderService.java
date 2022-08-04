@@ -11,7 +11,7 @@ public class RequestTokenProviderService {
         RestTemplate restTemplate = new RestTemplate();
 
         try {
-            restTemplate.postForEntity("http://localhost:8090/api/v1/token/authorizer",
+            restTemplate.postForEntity("http://localhost:8081/api/v1/token/authorizer",
                     new CreateAuthorizerRequest(new CreateAuthorizerRequestData(token[0], token[1])), String.class);
             return true;
         }  catch (Exception e){

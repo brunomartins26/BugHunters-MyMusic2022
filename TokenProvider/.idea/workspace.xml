@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20ae6e0a-a8fd-4193-a1de-f1b59377a0bc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../MyMusic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/src/main/java/com/ciandt/summit/bootcamp2022/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/src/main/java/com/ciandt/summit/bootcamp2022/service/RequestTokenProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/src/main/java/com/ciandt/summit/bootcamp2022/service/RequestTokenProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/SummitBootcampApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/SummitBootcampApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/DbConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/DbConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/SqlDialect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/SqlDialect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/SqliteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/SqliteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/interceptor/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/interceptor/JwtInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/interceptor/JwtTokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/config/interceptor/JwtTokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/controller/MusicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/controller/MusicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/controller/dto/request/CreateAuthorizerRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/controller/dto/request/CreateAuthorizerRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/controller/dto/request/CreateAuthorizerRequestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/controller/dto/request/CreateAuthorizerRequestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/entity/Artista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/entity/Artista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/entity/Musica.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/entity/Musica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/entity/PlayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/entity/PlayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/exceptions/ErrorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/exceptions/ErrorException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/exceptions/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/exceptions/ErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/exceptions/ExceptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/exceptions/ExceptionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/repository/ArtistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/repository/ArtistRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/repository/MusicRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/repository/MusicRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/repository/PlaylistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/repository/PlaylistRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/service/MusicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/service/MusicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/service/RequestTokenProviderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMusic/target/classes/com/ciandt/summit/bootcamp2022/service/RequestTokenProviderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/token-provider.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/token-provider.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ciandt/token/provider/core/usecases/CreateAuthorizerUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ciandt/token/provider/core/usecases/CreateAuthorizerUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/TokenProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/TokenProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/TokenAuthorizerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/TokenAuthorizerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/TokenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/TokenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateAuthorizerRequestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateTokenRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateTokenRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateTokenRequestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/controllers/dto/request/CreateTokenRequestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/core/usecases/CreateAuthorizerUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/core/usecases/CreateAuthorizerUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/core/usecases/CreateTokenUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/core/usecases/CreateTokenUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/services/EncryptServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ciandt/token/provider/services/EncryptServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token-provider.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Cu6DOLDywTqwAHZY2qSuGgIQEl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/brunomartins/Documents/MyMusic2022/BugHunters-MyMusic2022/TokenProvider",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TokenProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ciandt.token.provider.TokenProviderApplication" />
+      <module name="token-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ciandt.token.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TokenProviderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20ae6e0a-a8fd-4193-a1de-f1b59377a0bc" name="Changes" comment="" />
+      <created>1659640005637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659640005637</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
