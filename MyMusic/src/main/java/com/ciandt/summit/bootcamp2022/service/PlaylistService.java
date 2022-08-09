@@ -38,10 +38,8 @@ public class PlaylistService {
         playList.getMusica().add(musica);
         playListRepository.save(playList);
         return playList;
-
-
-
-
     }
+
+
 
 }
