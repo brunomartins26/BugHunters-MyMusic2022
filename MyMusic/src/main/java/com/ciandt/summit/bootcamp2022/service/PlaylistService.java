@@ -40,6 +40,24 @@ public class PlaylistService {
         return playList;
     }
 
+    public String removeSongFromPlayList(String playlistId, String musicaId){
 
+        Musica musicFind = musicRepository.findById(musicaId).orElseThrow(() -> new ErrorException("Song not found."));
+        PlayList playList = playListRepository.findById(playlistId).orElseThrow(() -> new ErrorException("PlayList not found"));
+
+        List<Musica> musics = playList.getMusica().stream().filter(music -> music.equals(musicFind)).collect(Collectors.toList());
+
+        if(musics.size() < 1){
+            throw new ErrorException("PlayList Song not found in playlist.");
+        }
+
+        try {
+            playList.getMusica().remove(musicFind);
+            playListRepository.save(playList);
+            return "Song "+musicaId+" removed from playlist successfull.";
+        }catch (Exception e){
+            return e.getMessage();
+        }
+    }
 
 }
