@@ -26,8 +26,7 @@ public class PlaylistController {
     }
     @DeleteMapping("/{playlistId}/musicas/{musicaId}")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity removeMusicaPlaylist(@PathVariable(name = "playlistId") String playlistId, @PathVariable(name = "musicaId") String musicaId) {
-
-        return ResponseEntity.ok().build();
+    public ResponseEntity<?> removeMusicaPlaylist(@PathVariable(name = "playlistId") String playlistId, @PathVariable(name = "musicaId") String musicaId) {
+        return ResponseEntity.ok().body(playlistService.removeSongFromPlayList(playlistId, musicaId));
     }
 }
